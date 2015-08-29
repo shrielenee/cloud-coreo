@@ -1,2 +1,2 @@
 # example-repo
-This is an example.
+This is an rad example.
