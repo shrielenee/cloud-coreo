@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+          <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title><%= subject %></title>
+    </head>
+    <body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0">
+        <center>
+            <table align="center" border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="bodyTable">
+                <tr>
+                    <td align="center" valign="top" id="bodyCell">
+                        <!-- BEGIN TEMPLATE // -->
+                        <table border="0" cellpadding="0" cellspacing="0" id="templateContainer">
+                            <tr>
+                                <td align="center" valign="top">
+                                    <!-- BEGIN HEADER // -->
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateHeader">
+                                        <tr>
+                                            <td valign="top" class="headerContent">
+                                                <img src="<%= logo %>" width="30%" style="max-width:600px; padding: 7px" id="headerImage" mc:label="header_image" mc:edit="header_image" mc:allowdesigner mc:allowtext />
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <!-- // END HEADER -->
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="center" valign="top">
+                                    <!-- BEGIN BODY // -->
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateBody">
+                                        <tr>
+                                            <td valign="top" class="bodyContent" mc:edit="body_content">
+                                                <h2>And now your journey begins...</h2>
+                                                <p>Thanks for signing up with CloudCoreo&#33; I know that our open&#45;source approach and exceedingly simple cloud deployment platform will make the process of creating and configuring your stack easy and painless.</p>
+                                                <p>To begin, check out our <a href="https://www.cloudcoreo.com/getstarted" target="_blank">Get Started page</a>. It guides you through setting up and deploying your very own Virtual Private Cloud (VPC).</p>
+                                                <p>I want you to be as productive and successful as possible, and I know this stuff can seem tricky at first. We&#39;ve got some tutorials to get you jumpstarted in the CloudCoreo space&#59; see a few helpful ones linked below. Also check out the example stacks listed, as they are great starting points for your own stack configuration.</p>
+                                                <p><em>If you have any questions at all, or need assistance along the way, just reply directly to this email (my personal address) or reach out to me on <a href="https://slackin.cloudcoreo.com/" target="_blank">Slack</a>.</em></p>
+                                                <br />
+                                                <p><b>Tutorials</b></p>
+                                                <p><a href="https://www.cloudcoreo.com/getstarted">Get Started&#151;No signup necessary</a>
+                                                    <br />
+                                                    <a href="http://blog.cloudcoreo.com/inside-a-cloudcoreo-appstack-part-1-networking/">Create a VPC</a>
+                                                    <br />
+                                                </p>
+                                                <br />
+                                                <p><b>Example Stacks</b></p>
+                                                <p>You can use these awesome existing stacks and build off of them to cater to your specific needs. It&#39;s a mix&#45;and&#45;match kind of environment around here, which offers the utmost in flexibility and helps you get your stacks up lightning fast. These are all available in GitHub as well, but it&#39;s easier to view the info in <a href="http://hub.cloudcoreo.com/" target="_blank">our Community Hub</a>.</p>
+                                                <p><a href="http://hub.cloudcoreo.com/stack/cloudcoreo-vpc_7aa05" target="_blank">Services example (3 AZ VPC with HA&#45;NAT)</a>
+                                                    <br />
+                                                    <a href="http://hub.cloudcoreo.com/stack/servers-nat_414ec" target="_blank">Server example (HA&#45;NAT)</a>
+                                                    <br />
+                                                    <a href="http://hub.cloudcoreo.com/stack/servers-vpn_c6a65" target="_blank">Server example (Open VPN)</a></p>
+                                                <br />
+                                                <p>And if you&#39;re ready... we&#39;ve got <a href="http://docs.cloudcoreo.com/docs/frames/index" target="_blank">API Documentation</a> for you to dive into as well.</p>
+                                                <p>I can&#39;t wait to see what you build&#33; <a href="mailto:cy@cloudcoreo.com">Share with me</a> your progress, join us <a href="https://slackin.cloudcoreo.com/" target="_blank">on Slack</a> and stay in touch with us <a href="https://twitter.com/@cloudcoreo" target="_blank">on Twitter</a>.</p>
+                                                <br />
+                                                Cy Megnin<br />
+                                                <a href="http://www.twitter.com/@cymegnin">@cymegnin</a><br />
+                                                <a href="http://www.twitter.com/@cloudcoreo">@CloudCoreo</a><br />
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <!-- // END BODY -->
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="center" valign="top">
+                                    <!-- BEGIN FOOTER // -->
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateFooter">
+                                        <tr>
+                                            <td valign="top" class="footerContent" mc:edit="footer_content00">
+                                                <a href="https://twitter.com/cloudcoreo">Follow on Twitter</a>&nbsp;&nbsp;&nbsp;<a href="https://www.linkedin.com/company/3632692">Link on LinkedIn</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td valign="top" class="footerContent" style="padding-top:0;" mc:edit="footer_content01">
+                                                <em>Copyright &copy; <%= year %> <%= company %>, All rights reserved.</em>
+                                                <br />
+                                                <%= companyTagline %>
+                                                <br />
+                                                <br />
+                                                <strong>Our mailing address is&#58;</strong>
+                                                <br />
+                                                <%= companyAddress1 %>
+                                                <br />
+                                                <%= companyAddress2 %>
+                                                <br />
+                                                <%= companyAddress3 %>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <!-- // END FOOTER -->
+                                </td>
+                            </tr>
+                        </table>
+                        <!-- // END TEMPLATE -->
+                    </td>
+                </tr>
+            </table>
+        </center>
+    </body>
+</html>
